@@ -1,0 +1,40 @@
+{
+    "name": "miranj/craft-sheets-to-tables",
+    "description": "Adds a Twig function to convert Spreadsheets into HTML tables.",
+    "version": "1.0.0-dev",
+    "type": "craft-plugin",
+    "keywords": [
+        "craft",
+        "craftcms",
+        "spreadsheet",
+        "csv",
+        "excel",
+        "table"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miranj",
+            "homepage": "https://miranj.in/"
+        }
+    ],
+    "support": {
+        "docs": "https://github.com/miranj/craft-sheets-to-tables/blob/master/README.md",
+        "issues": "https://github.com/miranj/craft-sheets-to-tables/issues"
+    },
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "phpoffice/phpspreadsheet": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "miranj\\sheetstotables\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Sheets to Tables",
+        "handle": "sheets-to-tables",
+        "changelogUrl": "https://raw.githubusercontent.com/miranj/craft-sheets-to-tables/master/CHANGELOG.md",
+        "class": "miranj\\sheetstotables\\Plugin"
+    }
+}
