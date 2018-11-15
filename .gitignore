@@ -1,3 +1,11 @@
-# Craft Storage (cache) [http://buildwithcraft.com/help/craft-storage-gitignore]
-/craft/storage/*
-!/craft/storage/logo/*
+# OS Cruft
+.DS_Store
+
+# Environment
+.env
+.tm_properties
+.sublime-project
+.sublime-workspace
+
+# Package Managers
+vendor
