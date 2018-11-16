@@ -1,7 +1,7 @@
 {
     "name": "miranj/craft-sheets-to-tables",
     "description": "Adds a Twig function to convert Spreadsheets into HTML tables.",
-    "version": "1.0.0-dev",
+    "version": "1.0.0",
     "type": "craft-plugin",
     "keywords": [
         "craft",

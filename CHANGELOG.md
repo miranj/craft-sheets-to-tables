@@ -4,7 +4,7 @@ Release notes for the Sheets to Tables Craft CMS plugin.
 
 
 
-## Unreleased
+## 1.0.0 - 2018-11-16
 
 - Initial release
 
