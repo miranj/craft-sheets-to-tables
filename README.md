@@ -29,3 +29,27 @@ Open your terminal and run the following commands:
     # tell Craft to install the plugin
     ./craft install/plugin sheets-to-tables
 
+## Usage
+
+To convert a spreadsheet file into an HTML `<table>`, pass an [craft\elements\Asset][asset] object as an argument to the `sheetstotables( asset )` Twig function.
+
+[asset]:https://docs.craftcms.com/api/v3/craft-elements-asset.html
+
+```twig
+{% set spreadsheet = craft.assets.kind('excel').one() %}
+
+{{ sheetstotables(spreadsheet) }}
+
+```
+
+If the spreadsheet file contains multiple sheets, only the contents of the first sheet will be rendered as a table.
+
+### Supported file formats
+- CSV
+- Excel (.xlsx, .xls)
+- Open Document Format (.ods)
+- [Other formats supported by PhpSpreadsheet](https://phpspreadsheet.readthedocs.io/en/develop/)
+
+---
+
+Brought to you by [Miranj](https://miranj.in/)
