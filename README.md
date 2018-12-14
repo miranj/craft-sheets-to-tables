@@ -1,7 +1,11 @@
-# Sheets to Tables plugin for Craft CMS 3.x
+<p align="center"><img src="./src/icon.svg" width="100" height="100" alt="Sheets to Tables icon"></p>
 
-A Twig function to convert Spreadsheets into HTML tables.
+<h1 align="center">Sheets to Tables</h1>
 
+This [Craft CMS][] plugin adds a [Twig][] function to convert Spreadsheets into HTML tables.
+
+[craft cms]:https://craftcms.com/
+[twig]:http://twig.sensiolabs.org/
 
 ## Requirements
 
