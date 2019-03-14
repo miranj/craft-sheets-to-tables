@@ -15,7 +15,7 @@ This plugin requires Craft CMS 3.0 or later.
 
 You can install this plugin from the [Plugin Store][ps] or with Composer.
 
-[ps]:https://plugins.craftcms.com/
+[ps]:https://plugins.craftcms.com/sheets-to-tables
 
 #### From the Plugin Store
 Go to the Plugin Store in your project’s Control Panel and search for “Sheets to Tables”.
