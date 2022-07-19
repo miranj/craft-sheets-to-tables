@@ -14,8 +14,11 @@ use craft\i18n\Locale;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Writer;
 use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
+use Twig\Extension\AbstractExtension;
+use Twig\Markup;
+use Twig\TwigFunction;
 
-class SheetsToTablesTwigExtension extends \Twig_Extension
+class SheetsToTablesTwigExtension extends AbstractExtension
 {
     public function getName()
     {
@@ -25,7 +28,7 @@ class SheetsToTablesTwigExtension extends \Twig_Extension
     public function getFunctions()
     {
         return [
-          new \Twig_SimpleFunction('sheetstotables', [$this, 'sheetstotables']),
+          new TwigFunction('sheetstotables', [$this, 'sheetstotables']),
         ];
     }
     
@@ -66,6 +69,6 @@ class SheetsToTablesTwigExtension extends \Twig_Extension
         $result = trim($result);
         $result = preg_replace('/^<style>.*?<\\/style>/is', '', $result);
         
-        return new \Twig_Markup($result, 'UTF-8');
+        return new Markup($result, 'UTF-8');
     }
 }
