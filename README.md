@@ -2,7 +2,7 @@
 
 # Sheets to Tables
 
-This [Craft CMS][] 3 plugin adds a [Twig][] function to convert Spreadsheets into HTML tables.
+This [Craft CMS][] plugin adds a [Twig][] function to convert Spreadsheets into HTML tables.
 
 [craft cms]:https://craftcms.com/
 [twig]:http://twig.sensiolabs.org/
@@ -62,13 +62,13 @@ Open your terminal and run the following commands:
     composer require miranj/craft-sheets-to-tables
     
     # tell Craft to install the plugin
-    ./craft install/plugin sheets-to-tables
+    ./craft plugin/install sheets-to-tables
 
 
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0 or later.
+This plugin requires Craft CMS 3 or 4.
 
 
 

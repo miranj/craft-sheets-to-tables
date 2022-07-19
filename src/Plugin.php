@@ -1,6 +1,6 @@
 <?php
 /**
- * Sheets to Tables plugin for Craft CMS 3.x
+ * Sheets to Tables plugin for Craft CMS 3.x, 4.x
  *
  * @link      https://miranj.in/
  * @copyright Copyright (c) Miranj Design LLP
