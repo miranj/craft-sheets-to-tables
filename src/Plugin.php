@@ -11,6 +11,7 @@ namespace miranj\sheetstotables;
 use miranj\sheetstotables\twigextensions\SheetsToTablesTwigExtension;
 
 use Craft;
+use craft\base\Plugin as BasePlugin;
 use craft\elements\Asset;
 use craft\events\RegisterAssetFileKindsEvent;
 use craft\helpers\Assets;
@@ -20,7 +21,7 @@ use yii\base\Event;
  * Class Plugin
  *
  */
-class Plugin extends craft\base\Plugin
+class Plugin extends BasePlugin
 {
     
     /**
