@@ -26,6 +26,17 @@
         "craftcms/cms": "^3.0.0-RC1",
         "phpoffice/phpspreadsheet": "^1.5"
     },
+    "require-dev": {
+        "craftcms/rector": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    },
     "autoload": {
         "psr-4": {
             "miranj\\sheetstotables\\": "src/"
