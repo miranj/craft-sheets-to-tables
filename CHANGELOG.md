@@ -8,6 +8,7 @@ Release notes for the Sheets to Tables Craft CMS plugin.
 
 ### Changed
 - Updated PhpSpreadsheet to 2.0 (on supported environments).
+- The plugin’s Twig extension name is now translateable.
 
 
 

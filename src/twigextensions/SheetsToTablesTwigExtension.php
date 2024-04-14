@@ -22,7 +22,7 @@ class SheetsToTablesTwigExtension extends AbstractExtension
 {
     public function getName()
     {
-        return 'SheetsToTables';
+        return Craft::t('sheets-to-tables', 'SheetsToTables');
     }
     
     public function getFunctions()
