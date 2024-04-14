@@ -68,7 +68,7 @@ Open your terminal and run the following commands:
 
 ## Requirements
 
-This plugin requires Craft CMS 3 or 4.
+This plugin requires Craft CMS 3, 4, or 5.
 
 
 
