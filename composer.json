@@ -28,7 +28,8 @@
         "phpoffice/phpspreadsheet": "^1.5"
     },
     "require-dev": {
-        "craftcms/rector": "dev-main"
+        "craftcms/rector": "dev-main",
+        "craftcms/phpstan": "dev-main"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -48,5 +49,8 @@
         "handle": "sheets-to-tables",
         "changelogUrl": "https://raw.githubusercontent.com/miranj/craft-sheets-to-tables/master/CHANGELOG.md",
         "class": "miranj\\sheetstotables\\Plugin"
+    },
+    "scripts": {
+        "phpstan": "phpstan --memory-limit=1G"
     }
 }
