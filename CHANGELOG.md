@@ -6,6 +6,9 @@ Release notes for the Sheets to Tables Craft CMS plugin.
 
 ## 1.2.0 - 2024-04-14
 
+### Added
+- Added support for Craft 5.
+
 ### Changed
 - Updated PhpSpreadsheet to 2.0 (on supported environments).
 - The plugin’s Twig extension name is now translateable.
