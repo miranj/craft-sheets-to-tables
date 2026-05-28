@@ -6,8 +6,10 @@ Release notes for the Sheets to Tables Craft CMS plugin.
 
 ## Unreleased 1.2.1
 
-### Added
-- Updated PhpSpreadsheet to 5.7 (on supported environments).
+### Changed
+- Updated PhpSpreadsheet to 1.30.4 / 2.1.16 / 5.7.0 (on supported environments).
+
+
 
 ## 1.2.0 - 2024-04-14
 
